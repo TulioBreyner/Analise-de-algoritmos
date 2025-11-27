@@ -133,7 +133,7 @@ def tempo_execucao(arr, alg):
         case _:
             return "algoritimo de ordenação não encontrado"
 
-sizes = [10, 100, 1000, 5000, 10000, 50000, 100000]
+sizes = [10, 100, 1000, 5000, 10000, 50000, 100000, 500000, 1000000]
 algoritimos = ["bubble", "selection", "insertion", "merge", "quick"]
 for n in sizes:
     print("-"*50)
